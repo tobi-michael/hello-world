@@ -12,7 +12,8 @@ b, t :=tmich("tobi" ,26)
 fmt.Println("result:", b , t)
 
 
-
+T :=mich(30)
+fmt.Println(T)
 }
 func goland() {
 	fmt.Println("my name is tobi" )
@@ -32,4 +33,10 @@ func tmich(name string, age int) (string, int) {
 
 	return name,age
 
+}
+func mich(mikes int) (int) {
+
+	mikes = mikes * 2
+
+	return mikes
 }
