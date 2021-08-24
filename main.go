@@ -21,8 +21,12 @@ func goland() {
 func hahaha() {
 	fmt.Println("47")
 
-
+H :=f(15, 12, 4)
+fmt.Println("result", H)
 }
+
+
+
 
 
 func tmich(name string, age int) (string, int) {
@@ -39,4 +43,22 @@ func mich(mikes int) (int) {
 	mikes = mikes * 2
 
 	return mikes
+}
+func strings(){
+a := "haba"
+b := "blackbonez"
+c := "fendi"
+
+d := a + b + c
+fmt. Println(d)
+}
+
+func f(a int, b int, c int) (int) {
+	a = 15
+	b = 12
+	c = 4
+
+
+	d := a + b + c
+	return d
 }
